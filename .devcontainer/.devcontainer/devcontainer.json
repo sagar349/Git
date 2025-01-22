@@ -1,0 +1,14 @@
+{
+  "name": "Terraform and Vault Development",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [
+    "hashicorp.terraform",
+    "ms-vscode.azurecli"
+  ],
+  "postCreateCommand": "terraform -help && vault -help"
+}
